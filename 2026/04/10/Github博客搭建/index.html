@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1" theme-name="Stellar" theme-version="1.33.1">
-  <link rel="canonical" href="https://tigerlyu.github.io/archives/2026/04/">
-  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://tigerlyu.github.io/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+  
   <meta name="generator" content="Hexo 7.3.0">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -17,22 +17,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>归档 - StopAndRun</title>
+  <title>使用Hexo（Stellar主题）搭建GitHub Pages个人博客 - StopAndRun</title>
 
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://tigerlyu.github.io/archives/2026/04/">
+    <meta name="description" content="前言最近想再找一处写博客的地方，个人NAS开放端口给公网访问方式是不行了，安全风险太大，那基于Github Pages算是一个不错的选择，不需要再去购买云主机和域名，那就薅微软的这根羊毛吧。 选定平台，接下来是本地写博客的环境了。网上对比一圈发现Hexo是个不错的选择，搭配Stellar主题，整体风格清爽简洁，甚得吾意。 环境准备整个环境部署Hexo需要依赖以下内容，这些基础工具和环境的安装这里就">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo（Stellar主题）搭建GitHub Pages个人博客">
+<meta property="og:url" content="https://tigerlyu.github.io/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
 <meta property="og:site_name" content="StopAndRun">
+<meta property="og:description" content="前言最近想再找一处写博客的地方，个人NAS开放端口给公网访问方式是不行了，安全风险太大，那基于Github Pages算是一个不错的选择，不需要再去购买云主机和域名，那就薅微软的这根羊毛吧。 选定平台，接下来是本地写博客的环境了。网上对比一圈发现Hexo是个不错的选择，搭配Stellar主题，整体风格清爽简洁，甚得吾意。 环境准备整个环境部署Hexo需要依赖以下内容，这些基础工具和环境的安装这里就">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp">
+<meta property="article:published_time" content="2026-04-10T01:08:48.000Z">
+<meta property="article:modified_time" content="2026-04-10T07:19:23.899Z">
 <meta property="article:author" content="Mr吕">
-<meta name="twitter:card" content="summary">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Stellar">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp">
   
   
   
-  
+  <meta name="keywords" content="Hexo,Stellar">
 
   <!-- feed -->
   
@@ -46,12 +52,12 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"https://tigerlyu.github.io","author":{"@type":"Person","name":"Mr吕","sameAs":[],"image":"https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp"},"name":"StopAndRun","description":"","url":"https://tigerlyu.github.io"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mr吕","sameAs":[],"image":"https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp"},"dateCreated":"2026-04-10T09:08:48+08:00","dateModified":"2026-04-10T15:19:23+08:00","datePublished":"2026-04-10T09:08:48+08:00","description":"","headline":"使用Hexo（Stellar主题）搭建GitHub Pages个人博客","mainEntityOfPage":{"@type":"WebPage","@id":"https://tigerlyu.github.io/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"},"publisher":{"@type":"Organization","name":"Mr吕","sameAs":[],"image":"https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp","logo":{"@type":"ImageObject","url":"https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp"}},"url":"https://tigerlyu.github.io/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/","keywords":"Hexo, Stellar","thumbnailUrl":"https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg","image":1}</script>
   <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" />
 </head>
 <body>
 
-<div class="l_body index" id="start" layout="undefined" type="undefined" text-indent><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
+<div class="l_body content" id="start" layout="post" type="tech" text-indent><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">StopAndRun</div><div class="sub cap">吾生也有涯，而知也无涯</div></a></div></header>
@@ -63,21 +69,126 @@
 <div class="widgets">
 <div class="search-wrapper" id="search-wrapper"><form class="search-form"><a class="search-button" onclick="document.getElementById(&quot;search-input&quot;).focus();"><svg t="1705074644177" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1560" width="200" height="200"><path d="M1008.839137 935.96571L792.364903 719.491476a56.783488 56.783488 0 0 0-80.152866 0 358.53545 358.53545 0 1 1 100.857314-335.166073 362.840335 362.840335 0 0 1-3.689902 170.145468 51.248635 51.248635 0 1 0 99.217358 26.444296 462.057693 462.057693 0 1 0-158.255785 242.303546l185.930047 185.725053a51.248635 51.248635 0 0 0 72.568068 0 51.248635 51.248635 0 0 0 0-72.978056z" p-id="1561"></path><path d="M616.479587 615.969233a50.428657 50.428657 0 0 0-61.498362-5.534852 174.655348 174.655348 0 0 1-177.525271 3.484907 49.403684 49.403684 0 0 0-58.833433 6.76482l-3.074918 2.869923a49.403684 49.403684 0 0 0 8.609771 78.10292 277.767601 277.767601 0 0 0 286.992355-5.739847 49.403684 49.403684 0 0 0 8.404776-76.667958z" p-id="1562"></path></svg></a><input type="text" class="search-input" id="search-input" placeholder="站内搜索"></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div>
 
+
+
 <widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2026/04/09/%E4%BB%8E%E7%8E%B0%E5%9C%A8%E5%BC%80%E5%A7%8B%E5%90%A7/"><span class="title">从现在开始吧</span></a><a class="item title" href="/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"><span class="title">使用Hexo（Stellar主题）搭建GitHub Pages个人博客</span></a><a class="item title" href="/2026/04/08/hello-world/"><span class="title">Hello Hexo</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
 
-<header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://pic.pngsucai.com/00/84/36/6dd65298a3c3ce70.webp" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">StopAndRun</div><div class="sub cap">吾生也有涯，而知也无涯</div></a></div></header>
-
- 
 
 
-<div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a href="/categories/">分类</a><a href="/tags/">标签</a><a class="active" href="/archives/">归档</a></nav></div></div></div><div class="post-list archives"><article class="" id="archive"><div class='archive-header h4'>2026</div><div class="archive-list"><a class='post fs14' href="/2026/04/10/Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"><time>04-10</time><span>使用Hexo（Stellar主题）搭建GitHub Pages个人博客</span></a></div><div class="archive-list"><a class='post fs14' href="/2026/04/09/%E4%BB%8E%E7%8E%B0%E5%9C%A8%E5%BC%80%E5%A7%8B%E5%90%A7/"><time>04-09</time><span>从现在开始吧</span></a></div><div class="archive-list"><a class='post fs14' href="/2026/04/08/hello-world/"><time>04-08</time><span>Hello Hexo</span></a></div></article></div>
+
+
+<div class="article banner top">
+  <div class="content">
+    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%B7%A5%E5%85%B7/">开发环境与工具</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2026-04-10T01:08:48.000Z">2026-04-10</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2026-04-10T07:19:23.899Z">2026-04-10</time></span></div></div></div>
+    
+    <div class="bottom only-title">
+      
+      <div class="text-area">
+        <h1 class="text title"><span>使用Hexo（Stellar主题）搭建GitHub Pages个人博客</span></h1>
+        
+      </div>
+    </div>
+    
+  </div>
+  </div><article class="md-text content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近想再找一处写博客的地方，个人NAS开放端口给公网访问方式是不行了，安全风险太大，那基于<code>Github Pages</code>算是一个不错的选择，不需要再去购买云主机和域名，那就薅微软的这根羊毛吧。</p>
+<p>选定平台，接下来是本地写博客的环境了。网上对比一圈发现<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>是个不错的选择，搭配<a target="_blank" rel="noopener" href="https://xaoxuu.com/wiki/stellar/">Stellar</a>主题，整体风格清爽简洁，甚得吾意。</p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>整个环境部署<code>Hexo</code>需要依赖以下内容，这些基础工具和环境的安装这里就不再赘述，如果不熟悉在网上很容易找到教程：  </p>
+<ul>
+<li><strong>Node.js:</strong> 本地已经安装Node.js；</li>
+<li><strong>npm:</strong> Node.js使用的包管理器，完整安装时默认已经包含该工具；</li>
+<li><strong>Git:</strong> 本地已经安装Git客户端； </li>
+<li><strong>Github账号:</strong> 这个不必多说；</li>
+</ul>
+<h2 id="本地部署Hexo"><a href="#本地部署Hexo" class="headerlink" title="本地部署Hexo"></a>本地部署Hexo</h2><ol>
+<li>创建一个存放<code>Hexo</code>及博客文件的目录，然后进入该目录，右键选择<code>Open Git Bash here</code>，会看到打开的命令行终端里面目录就是当前目录，省去了来回切换目录的工作。  </li>
+<li>安装Hexo CLI： <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div></div>  </li>
+<li>创建Hexo项目，比如<code>gitblog</code>, 会对应生成一个项目目录，进入该目录，后续的命令如果无特殊说明，都在该目录下执行。    <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init gitblog</span><br><span class="line"><span class="built_in">cd</span> gitblog</span><br><span class="line"><span class="comment">#安装依赖项</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></div></div> </li>
+<li>可以看到<code>gitblog</code>目录下已经创建了许多文件，运行起来看下    <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><figcaption><span>启动命令</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div></div>   
+  看到执行成功提示后，打开浏览器 ，访问 <code>http://localhost:4000/</code> 就能看到<code>Hello World</code>这个自带博客页面了。</li>
+</ol>
+<h2 id="创建Github-Pages仓库"><a href="#创建Github-Pages仓库" class="headerlink" title="创建Github Pages仓库"></a>创建Github Pages仓库</h2><p>该部分是在<code>Github</code>创建一个命名格式为<code>您的GitHub用户名.github.io</code>的仓库，附录引用的参考文档描述已经比较详细，不再啰嗦。</p>
+<h2 id="推送本地博客到Github-Pages仓库"><a href="#推送本地博客到Github-Pages仓库" class="headerlink" title="推送本地博客到Github Pages仓库"></a>推送本地博客到Github Pages仓库</h2><p>前面在本地浏览器已经能够浏览自己的博客页面，但想让别人也方便地从网络上看到，那需要把博客部署到刚才创建的<code>Github</code>仓库中。  </p>
+<ol>
+<li>安装<code>Hexo</code>部署插件:    <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></div></div> </li>
+<li>修改部署配置，在<code>gitblog</code> 目录下会看到一个 <code>_config.yml</code> 文件，这个是<code>Hexo</code>的主配置文件，打开在末尾部分找到<code>deploy</code> 配置节，并修改如下：    <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span>   </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="comment"># 注意将xxxx替换为你自己的github名字</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/xxxx/xxxx.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;部署Hexo博客，更新于 $(date &#x27;+%Y-%m-%d %H:%M:%S&#x27;)&quot;</span></span><br></pre></td></tr></table></figure></div></div></li>
+<li>部署测试一下：    <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></div></div>   
+首次部署会弹出页面进行登录验证，后面不会再频繁验证。看到提示成功后访问<code>https://您的GitHub用户名.github.io</code> ，能打开就OK了。  <blockquote>
+<p>如果本地访问Github网络很不稳定，可能导致部署失败，重试即可。</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="安装配置Stellar主题"><a href="#安装配置Stellar主题" class="headerlink" title="安装配置Stellar主题"></a>安装配置Stellar主题</h2><p>前面的工作完成后已经可以编写、发布博客了，但默认的<code>Hexo</code>博客样式比较简陋，好在有丰富的配套主题供我们选用，我本次就选择了一个口碑比较不错的<code>Stellar</code>主题来美化博客。  </p>
+<ol>
+<li>安装Stellar主题包：  <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-stellar</span><br></pre></td></tr></table></figure></div></div> </li>
+<li>修改项目主题配置，还是找到<code>_config.yml</code> 文件，找到<code>theme</code>配置并做如下修改：  <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">stellar</span></span><br></pre></td></tr></table></figure></div></div></li>
+<li>复制主题配置文件。先找到<code>Stellar</code>安装后的配置文件：<code>themes/stellar/_config.yml</code>，复制一份并重命名为 <code>_config.stellar.yml</code>，然后放到和主配置文件<code>_config.yml</code>一个目录下。</li>
+<li>个性化配置主题，主要就是修改<code>_config.stellar.yml</code>里面的配置项，内容特别多，可参考<a href="#local-ref">附录文档</a>调整到满意为止。我调整的不多，设置一下博客名字、头像、左侧边栏等几个比较基础的部分。  </li>
+<li>创建分类、标签等几个常用目录。看到很多博客主页顶部可以展示“分类”、“标签”、“归档”等几个导航栏，但系统貌似默认不会自动出来，需要手工创建对应目录才可以，所以在根目录下找到<code>source</code>文件夹，创建三个目录：<code>categories</code>、<code>tags</code>、<code>archives</code>，然后每个目录下创建一个<code>index.md</code>文件，文件内容分别为：  <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#对应categories目录下文件内容</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">分类</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">categories</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="comment">#对应tags目录下文件内容</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">标签</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="comment">#对应archives目录下文件内容</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">归档</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">archives</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></div></div></li>
+<li>重新部署查看一下效果吧。</li>
+</ol>
+<h2 id="配置文章常用属性"><a href="#配置文章常用属性" class="headerlink" title="配置文章常用属性"></a>配置文章常用属性</h2><p>前面完成其实已经可以写文章了，不过<code>Hexo</code>里面有个<code>Front-matter</code>配置，就是在文章头部可以定义一些属性，比如标题、封面图片等。找到<code>scaffolds/post.md</code>文件并打开，可以编辑自己需要使用的属性，以后新建文章的时候会自动带过去。 </p>
+<p>我目前的基本配置如下：<br>   <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> &#123;&#123; <span class="string">title</span> &#125;&#125;</span><br><span class="line"><span class="attr">h1:</span> </span><br><span class="line"><span class="attr">date:</span> &#123;&#123; <span class="string">date</span> &#125;&#125;</span><br><span class="line"><span class="attr">tags:</span> []</span><br><span class="line"><span class="attr">categories:</span> []</span><br><span class="line"><span class="comment"># 封面</span></span><br><span class="line"><span class="attr">cover:</span> </span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></div></div></p>
+<h2 id="新建并编辑文章"><a href="#新建并编辑文章" class="headerlink" title="新建并编辑文章"></a>新建并编辑文章</h2><p>正式开始了，通过如下命令创建：  </p>
+  <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure></div></div>  
+
+<p>然后会发现<code>source/_posts</code>目录下会创建一个同名的<code>md</code>格式文件，剩下就是找一个顺手的<code>MarkDown</code>编辑器填充内容了。我目前使用<code>VSCode</code>，但有些<code>Stellar</code>主题自扩展格式不能正确解析。</p>
+<p>另外，部署到<code>Github</code>毕竟耗时，编写过程中可以使用如下命令本地通过<code>http://localhost:4000/</code> 地址预览下，整个完工后再部署到仓库。<br>  <div class="tag-plugin colorful note" child="codeblock"><div class="body"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></div></div></p>
+<h2 id="文档链接"><a href="#文档链接" class="headerlink" title="文档链接  "></a>文档链接  <a id="local-ref"></a></h2><div class="tag-plugin link dis-select"><a class="link-card rich" title="" href="https://hexo.io/zh-cn/" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon,desc"><div class="top"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div><span class="cap link footnote">https://hexo.io/zh-cn/</span></div><div class="bottom"><span class="title">https://hexo.io/zh-cn/</span><span class="cap desc footnote"></span></div></a></div>  
+
+<div class="tag-plugin link dis-select"><a class="link-card rich" title="" href="https://xaoxuu.com/wiki/stellar/" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon,desc"><div class="top"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div><span class="cap link footnote">https://xaoxuu.com/wiki/stellar/</span></div><div class="bottom"><span class="title">https://xaoxuu.com/wiki/stellar/</span><span class="cap desc footnote"></span></div></a></div></article>
+<div class="article-footer">
+    <section id="references">
+      <div class="header"><span>参考资料</span></div>
+      <div class="body">
+        <ul>
+        <li class="post-title">
+          <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/2303_76953932/article/details/145233223">超详细Hexo+Github Pages搭建个人博客教程</a></p>
+
+        </li>
+        
+        <li class="post-title">
+          <p><a target="_blank" rel="noopener" href="https://vmoranv.github.io/2025/05/05/%E5%BB%BA%E7%AB%99/">使用 Hexo + GitHub Pages + Stellar 主题搭建个人博客</a></p>
+
+        </li>
+        
+        <li class="post-title">
+          <p><a target="_blank" rel="noopener" href="https://www.wycsky.com/post/0049.html">hexo-theme-stellar常用标签组件</a></p>
+
+        </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="license">
+      <div class="header"><span>许可协议</span></div>
+      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div>
+    </section>
+    
+
+</div>
+
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2026/04/09/%E4%BB%8E%E7%8E%B0%E5%9C%A8%E5%BC%80%E5%A7%8B%E5%90%A7/">从现在开始吧</a></div></section></div>
+
+<div class="related-wrap" id="related-posts"></div>
+
+
+
+
 <footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">Mr吕</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1">Stellar 1.33.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
-</aside><div class='float-panel'>
+<div class="widgets">
+
+
+
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-text">环境准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2Hexo"><span class="toc-text">本地部署Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAGithub-Pages%E4%BB%93%E5%BA%93"><span class="toc-text">创建Github Pages仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A8%E9%80%81%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E5%88%B0Github-Pages%E4%BB%93%E5%BA%93"><span class="toc-text">推送本地博客到Github Pages仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEStellar%E4%B8%BB%E9%A2%98"><span class="toc-text">安装配置Stellar主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%96%87%E7%AB%A0%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7"><span class="toc-text">配置文章常用属性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E5%BB%BA%E5%B9%B6%E7%BC%96%E8%BE%91%E6%96%87%E7%AB%A0"><span class="toc-text">新建并编辑文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E9%93%BE%E6%8E%A5"><span class="toc-text">文档链接  </span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a></div></widget>
+</div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
   </button>
